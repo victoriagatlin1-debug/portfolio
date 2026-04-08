@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Playground - Vicki Portfolio</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <main class="wrap">
+    <section class="shell">
+      <nav class="nav">
+        <div class="nav-links">
+          <a href="./index.html">Home</a>
+          <a href="./about.html">About</a>
+          <a href="./work.html">Work</a>
+          <a href="./playground.html">Playground</a>
+          <a href="./cv.html">CV</a>
+        </div>
+        <a class="chip" href="./contact.html">Contact</a>
+      </nav>
+      <div class="main">
+        <h1 class="title">Experiments + Prototypes</h1>
+
+        <section class="expandable-list">
+          <details class="expandable" open>
+            <summary class="expandable-head">
+              <div>
+                <h2 class="expandable-title">User Test: Risk Of Obsolescence</h2>
+              </div>
+              <span class="expandable-cta" aria-hidden="true"></span>
+            </summary>
+            <div class="expandable-body">
+            <p class="project-text">This piece uses a nostalgic Windows XP-style interface to contrast early internet optimism with today’s AI-driven logic. It reframes planned obsolescence as something that may also be applied to people: our choices, labor, and identities.</p>
+            <p class="project-text">Built with HTML, the experience includes a working embedded Minesweeper, an audio player, and a paint section. The project folder also contains the gallery text and the full written description of the piece.</p>
+            <ul class="list">
+              <li>The test starts familiar and playful, then gradually corrects and overrides user input.</li>
+              <li>It mirrors recommendation systems that infer identity from patterns and behavior.</li>
+              <li>It questions autonomy: if choices are highly predictable, how free are they?</li>
+              <li>It positions human creativity as lived, embodied, and non-automatable.</li>
+              <li>It asks for pause and resistance against total optimization.</li>
+            </ul>
+            <div class="embed">
+              <iframe src="./creativevoid/index.html" title="User Test: Risk of Obsolescence"></iframe>
+            </div>
+            <a class="link-btn" href="./creativevoid/index.html" target="_blank" rel="noopener">Open Full Experience</a>
+            </div>
+          </details>
+
+          <details class="expandable">
+            <summary class="expandable-head">
+              <div>
+                <h2 class="expandable-title">Manifiesto.esp — Visuals</h2>
+              </div>
+              <span class="expandable-cta" aria-hidden="true"></span>
+            </summary>
+            <div class="expandable-body">
+            <p class="project-text">A collection of looping GIF-style visuals representing textile design and overconsumption, created in Premiere Pro. The sequence maintains visual coherence across motifs and was projected onto a wall throughout the event.</p>
+              <details class="gallery-toggle">
+                <summary>Open Gallery</summary>
+                <div class="project-media">
+                  <video src="./manifiesto-esp/visuals/MANIFIESTOFRFR.mp4" controls loop muted playsinline preload="metadata"></video>
+                </div>
+              </details>
+            </div>
+          </details>
+        </section>
+      </div>
+    </section>
+  </main>
+  <script defer src="./lightbox.js"></script>
+</body>
+</html>
